@@ -1,7 +1,7 @@
 export const WS_CONNECTION_STRING ='wss://stream.binance.cloud:9443/ws/bnbbtc@depth20';
 export const TRADE_DATA = {
     "success":true,
-    "data": [{
+    "data": [{  
 		"symbol": "XRP",
 		"quoteAssetName": "Ripple",
 		"tradedMoney": "0.00220412/￥3.39",

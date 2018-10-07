@@ -7,7 +7,7 @@
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "immutable": "^3.8.2",
-    "mocha": "^5.2.0",
+    "mocha": "^5.2.0", 
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-loadable": "^5.5.0",
