@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Show Input 1`] = `
+<div
+  className="sc-ifAKCX gvOomY"
+>
+  <div
+    className="price"
+  >
+    test
+  </div>
+  <input
+    className="input"
+    type="text"
+  />
+  <div
+    className="unitWrapper"
+  >
+    <span
+      className="unit"
+    >
+      bnb
+    </span>
+  </div>
+</div>
+`;
