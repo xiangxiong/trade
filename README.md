@@ -1,17 +1,8 @@
 ## 技术栈
+* React + Redux
+* 测试框架: jest
 
-## 目录结构
-  
-## 实现功能
-
-## 截图
-
-
-## 测试 框架: jest
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+## 运行
+* yarn install
+* yarn start
+* 访问链接: http://localhost:3000/
