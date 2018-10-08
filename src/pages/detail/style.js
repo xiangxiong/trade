@@ -63,8 +63,12 @@ export const TradeBuyInPrecent = styled.div`
     width:100%;
     height:30px;
     line-height:30px;
-    margin-left:83px;
+    margin-left:80px;
     margin-bottom:4px;
+    .active{
+        color:rgb(245, 188, 0);
+        border:1px solid rgb(245, 188, 0);
+    }
     .item-precent{
         width:50px;
         height:25px;
@@ -80,7 +84,7 @@ export const TradeBuyInPrecent = styled.div`
         height:25px;
         line-height:25px;
         text-align:center;
-        margin-left:46.6px;
+        margin-left:43.3px;
         cursor:pointer;
         background: #ffffff;
         display:inline-block;
@@ -103,6 +107,7 @@ export const TradeBuyInSubmit = styled.div`
     margin:0px auto;
     cursor:pointer;
     color:rgb(245, 188, 0);
+    margin-right:86px;
 `;
 
 export const TradeBuyOut = styled.div`
@@ -110,6 +115,8 @@ export const TradeBuyOut = styled.div`
     flex-direction:column;
     flex:1;
     justify-content: flex-start;
+    border-left:1px solid #e2e2e2;
+    padding-left:27px;
 `;
 
 

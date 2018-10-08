@@ -23,6 +23,7 @@ class Detail extends Component{
     handleTradeSubmit(){
         const ws = new ReconnectingWebSocket(WS_CONNECTION_STRING);
         ws.addEventListener('open', () => {
+            console.log("connection success!")
             ws.send('hello world!');
         });
     }
@@ -37,15 +38,15 @@ class Detail extends Component{
                         <TradeBuyInTitle>买入{name}</TradeBuyInTitle>
                         <TradeBuyInput label={"价格:"} type={"ETH"}/>
                         <TradeBuyInput label={"金额:"} type={name}/>
-                        <TradeBuyPrecent/>
+                        <TradeBuyPrecent type="buyIn"/>
                         <TradeBuyInput label={"成交金额:"} type={"ETH"}/>
                         <TradeBuyInSubmit onClick={this.handleTradeSubmit}>交易</TradeBuyInSubmit>
                     </TradeBuyIn>
                     <TradeBuyOut>
-                        <TradeBuyInTitle>买入{name}</TradeBuyInTitle>
+                        <TradeBuyInTitle>卖出{name}</TradeBuyInTitle>
                         <TradeBuyInput label={"价格:"} type={"ETH"}/>
                         <TradeBuyInput label={"金额:"} type={name}/>
-                        <TradeBuyPrecent/>
+                        <TradeBuyPrecent type="buyOut"/>
                         <TradeBuyInput label={"成交金额:"} type={"ETH"}/>
                         <TradeBuyInSubmit onClick={this.handleTradeSubmit}>交易</TradeBuyInSubmit>
                     </TradeBuyOut>
